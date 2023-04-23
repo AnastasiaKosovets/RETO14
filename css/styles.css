@@ -3,28 +3,33 @@ body {
     height: 40em;
     margin: 0;
     padding: 0;
-    background: url(../img/pingüino.jpeg) no-repeat 0;
+    background: url(../img/pingüino.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .tabla {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
+    
     margin: 3em;
     padding: 5em;
     width: 90em;
     height: 30em;
 }
 
+
 .title {
     background: white;
     color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 30em;
     border: solid 1px;
 }
 
-.titleName {
+.titleName, .line1, .line2 {
     font-weight: bold;
 }
 
