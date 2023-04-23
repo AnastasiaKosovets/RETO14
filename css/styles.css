@@ -1,0 +1,56 @@
+body {
+    display: block;
+    height: 40em;
+    margin: 0;
+    padding: 0;
+    background: url(../img/pingüino.jpeg) no-repeat 0;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    margin: 3em;
+    padding: 5em;
+    width: 90em;
+    height: 30em;
+}
+
+.title {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 30em;
+    border: solid 1px;
+}
+
+.titleName {
+    font-weight: bold;
+}
+
+.line1{
+    background: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    border: solid 1px;
+}
+
+.line2 {
+    background: yellow;
+    color: black;
+    display: flex;
+    justify-content: right;
+    width: 10em;
+    margin: 1px;
+    padding: 1px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;   
+}
+.img {
+    background-repeat: no-repeat
+}
